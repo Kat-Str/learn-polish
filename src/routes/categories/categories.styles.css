@@ -1,0 +1,22 @@
+.grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.third-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.third-grid div {
+  height: calc(30vh);
+}
+
+.bubble-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+   align-items: center;
+
+}
