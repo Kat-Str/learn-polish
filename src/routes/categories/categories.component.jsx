@@ -14,10 +14,10 @@ const Categories = () => {
           <Link to="/categories/vocabulary">
             <CategoryButton buttonText="Vocabulary" />
           </Link>
-          <Link to="/categories/phrases">
+          <Link>
             <CategoryButton buttonText="Phrases" className="inactive" />
           </Link>
-          <Link to="/categories/grammar">
+          <Link>
             <CategoryButton buttonText="Grammar" className="inactive" />
           </Link>
         </div>
