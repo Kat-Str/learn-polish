@@ -55,3 +55,13 @@
   display: flex;
   justify-content: center;
 }
+
+/* Styling from Colors */
+
+.color-card .word-picture {
+  aspect-ratio: 1;
+}
+
+#biały .word-picture {
+  border: 1px solid #000;
+}
