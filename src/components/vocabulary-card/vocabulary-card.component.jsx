@@ -2,10 +2,16 @@ import "./vocabulary-card.styles.css";
 import { Fragment } from "react";
 
 const VocabularyCard = (props) => {
-  const { word, picture } = props;
+  const { word, picture, sound } = props;
+
+  const playSound = () => {
+    const audio = new Audio(sound);
+    audio.play();
+  };
+
   return (
     <Fragment>
-      <button className="vocabulary-card">
+      <button onClick={playSound} className="vocabulary-card">
         <div>{word}</div>
         <br />
         <div>
