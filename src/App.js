@@ -11,6 +11,8 @@ import Vegetables from "./routes/vocab-categories/food/food-categories/vegetable
 import Drinks from "./routes/vocab-categories/food/food-categories/drinks/drinks.component";
 import Colors from "./routes/vocab-categories/colors/colors.component";
 import Animals from "./routes/vocab-categories/animals/animals.component";
+import Meat from "./routes/vocab-categories/food/food-categories/meat/meat.component";
+import Dishes from "./routes/vocab-categories/food/food-categories/dishes/dishes.component";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
         <Route path="/categories/vocabulary/food/drinks" element={<Drinks />} />
         <Route path="/categories/vocabulary/colors" element={<Colors />} />
         <Route path="/categories/vocabulary/animals" element={<Animals />} />
+        <Route path="/categories/vocabulary/food/meat" element={<Meat />} />
+        <Route path="/categories/vocabulary/food/dishes" element={<Dishes />} />
       </Routes>
     </div>
   );

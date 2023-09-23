@@ -14,6 +14,12 @@ const Food = () => {
       <Link to="/categories/vocabulary/food/drinks">
         <CategoryButton buttonText="Drinks" />
       </Link>
+      <Link to="/categories/vocabulary/food/meat">
+        <CategoryButton buttonText="Meat" />
+      </Link>
+      <Link to="/categories/vocabulary/food/dishes">
+        <CategoryButton buttonText="Dishes" />
+      </Link>
     </Fragment>
   );
 };

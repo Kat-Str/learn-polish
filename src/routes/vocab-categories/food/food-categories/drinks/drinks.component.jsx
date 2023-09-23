@@ -1,12 +1,12 @@
 import VocabularyCard from "../../../../../components/vocabulary-card/vocabulary-card.component";
 import { Fragment } from "react";
 // Pictures
-import woda from "../../../../../assets/vocabulary-pictures/food/drinks/water.png";
-import kawa from "../../../../../assets/vocabulary-pictures/food/drinks/coffee.png";
-import herbata from "../../../../../assets/vocabulary-pictures/food/drinks/tea.png";
-import mleko from "../../../../../assets/vocabulary-pictures/food/drinks/milk.png";
-import sok from "../../../../../assets/vocabulary-pictures/food/drinks/juice.png";
-import wino from "../../../../../assets/vocabulary-pictures/food/drinks/wine.png";
+import woda from "../../../../../assets/vocabulary-pictures/food/drinks/woda.png";
+import kawa from "../../../../../assets/vocabulary-pictures/food/drinks/kawa.png";
+import herbata from "../../../../../assets/vocabulary-pictures/food/drinks/herbata.png";
+import mleko from "../../../../../assets/vocabulary-pictures/food/drinks/mleko.png";
+import sok from "../../../../../assets/vocabulary-pictures/food/drinks/sok.png";
+import wino from "../../../../../assets/vocabulary-pictures/food/drinks/wino.png";
 // Sounds
 import wodaSound from "../../../../../assets/sounds/vocabulary-sounds/food/drinks/woda.mp3";
 import kawaSound from "../../../../../assets/sounds/vocabulary-sounds/food/drinks/kawa.mp3";
