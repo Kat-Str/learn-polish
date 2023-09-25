@@ -13,6 +13,7 @@ import Colors from "./routes/vocab-categories/colors/colors.component";
 import Animals from "./routes/vocab-categories/animals/animals.component";
 import Meat from "./routes/vocab-categories/food/food-categories/meat/meat.component";
 import Dishes from "./routes/vocab-categories/food/food-categories/dishes/dishes.component";
+import Numbers from "./routes/vocab-categories/numbers/numbers.component";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/categories/vocabulary/animals" element={<Animals />} />
         <Route path="/categories/vocabulary/food/meat" element={<Meat />} />
         <Route path="/categories/vocabulary/food/dishes" element={<Dishes />} />
+        <Route path="/categories/vocabulary/numbers" element={<Numbers />} />
       </Routes>
     </div>
   );

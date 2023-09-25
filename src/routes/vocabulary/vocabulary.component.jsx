@@ -11,6 +11,9 @@ const Vocabulary = () => {
       <Link to="/categories/vocabulary/colors">
         <CategoryButton buttonText="Colors" />
       </Link>
+      <Link to="/categories/vocabulary/numbers">
+        <CategoryButton buttonText="Numbers" />
+      </Link>
       <Link to="/categories/vocabulary/animals">
         <CategoryButton buttonText="Animals" />
       </Link>
